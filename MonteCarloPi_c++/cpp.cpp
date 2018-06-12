@@ -12,7 +12,7 @@ int main(){
 	cout<<"Hell"<<endl;
 
 
-	int popitok=10E7;
+	int popitok=10E8;
 	int papodaniy=0;
 
 	cout<<"Single sream"<<endl;
