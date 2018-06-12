@@ -16,6 +16,8 @@ def foo(a):
 	
 	return pom
 
+pool.map(print, ("Hell",)*treads)
+
 print("Single stream")
 startTime=time.time()
 for i in range(int(popitok)):
@@ -27,7 +29,7 @@ for i in range(int(popitok)):
 print(4*popodaniy/popitok, time.time()-startTime)
 popodaniy=0
 
-print("Multi stream")
+print("\n\nMulti stream")
 startTime=time.time()
 pom=pool.map(foo, (666,)*treads)
 for x in pom: popodaniy+=x
